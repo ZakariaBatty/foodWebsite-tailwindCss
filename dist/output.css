@@ -689,12 +689,12 @@ section{
   margin-bottom: 0.5rem;
 }
 
-.ml-4{
-  margin-left: 1rem;
-}
-
 .mb-3{
   margin-bottom: 0.75rem;
+}
+
+.ml-4{
+  margin-left: 1rem;
 }
 
 .flex{
@@ -759,16 +759,12 @@ section{
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.flex-row{
-  flex-direction: row;
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -811,10 +807,6 @@ section{
   gap: 1.25rem;
 }
 
-.gap-2{
-  gap: 0.5rem;
-}
-
 .space-y-1 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -831,12 +823,12 @@ section{
   overflow: hidden;
 }
 
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .rounded-3xl{
   border-radius: 1.5rem;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .border-b{
@@ -1076,16 +1068,16 @@ section{
     display: none;
   }
 
+  .md\:w-48{
+    width: 12rem;
+  }
+
   .md\:w-auto{
     width: auto;
   }
 
   .md\:w-full{
     width: 100%;
-  }
-
-  .md\:w-48{
-    width: 12rem;
   }
 
   .md\:flex-1{

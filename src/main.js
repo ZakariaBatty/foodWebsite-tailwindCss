@@ -20,12 +20,14 @@ hamburger.addEventListener("click", () => {
 
 // tabs
 const tabs = document.querySelectorAll(".tabs_wrap ul li");
-
+const all = document.querySelectorAll('.item_wrap')
 tabs.forEach(tab => {
   tab.addEventListener("click", () => {
     tabs.forEach(tab => {
       tab.classList.remove('active')
     })
     tab.classList.add("active")
+
+    const tabral = tab.getAttribute('data-tabs')
   })
 })
